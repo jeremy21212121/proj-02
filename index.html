@@ -17,10 +17,10 @@
 		 	<div class="navwrap clearfix caps">
 				<nav>
 					<ul>
-						<li>Contact</li>
-						<li>Reservations</li>
-						<li>Menu</li>
-						<li>About</li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#book">Reservations</a></li>
+						<li><a href="#menu">Menu</a></li>
+						<li><a href="#about">About</a></li>
 
 					</ul>
 			 	</nav>
@@ -29,9 +29,13 @@
 			<p class="shadow">Grown here. Made here. Eaten Here.
 			</p>
 			<div class="button">
-				<button class="caps">See our menu &#62;</button>
+				<a href="#menu"><button class="caps">See our menu &#62;</button></a>
 			</div>
+
 			<div class="open">
+			<a name="about"></a>
+				<span id="day"></span>
+				<span id="open"></span>
 			</div>
 		</div>
 		</header>
@@ -54,6 +58,7 @@
  			</ul>
 		</div>
 		<article class="menu grey">
+		 <a name="menu"></a>
 			<h1 class="caps">
 				Food &amp; Drink
 			</h1>
@@ -90,13 +95,14 @@
 			</p>
 		</article>
 		<section class="book">
+			<a name="book"></a>
 			<h1 class="caps white bold">Book a table</h1>
 			<p>If you would like to book a table at 100 Mile Resto Bar for up to 8 people, please use our booking form below. We will send you confirmation as soon as we can.
 			</p>
 			<form action="#" method="post">
     			<div>
         		<label for="date">Which Date?</label>
-      			<input type="date" id="date" />
+      			<input type="day" id="date" />
     			</div>
   				<div>
         			<label for="time">What Time?</label>
@@ -124,24 +130,25 @@
 			</form>
 		</section>
 		<section class="find">
+			<a name="contact"></a>
 			<h1 class="grey caps">Find Us</h1>
 			 <div>
-				<i class="fa fa-map-marker tan"></i>
+				<i class="fa fa-map-marker fa-2x tan"></i>
 				<p id="address">1490 W Broadway, Vancouver BC</p>
 			</div>
 			<div>
-			 <i class="fa fa-phone tan"></i>
+			 <i class="fa fa-phone fa-2x tan"></i>
 			 <p>604-604-6040</p>
 		 </div>
 		 <div id="lastfind">
-			<i class="fa fa-envelope tan"></i>
+			<i class="fa fa-envelope fa-2x tan"></i>
 			<p>info@hundredmilerestobar.ca</p>
 		</div>
 		<footer class="clearfix">
 				<img src="images/100-mile-logo-stacked.svg" alt="100 Mile Resto Bar">
 				<div class="social">
 					<p>Follow us on:</p>
-					<i class="fa fa-facebook-square fa-2x"></i><i class="fa fa-twitter fa-lg fa-2x"></i><i class="fa fa-instagram  fa-lg fa-2x"></i>
+					<i class="fa fa-facebook-square fa-2x"></i><i class="fa fa-twitter fa-2x"></i><i class="fa fa-instagram fa-2x"></i>
 					<p>&#169; 100 Mile Resto Bar 2015</p>
 				</div>
     </footer>
