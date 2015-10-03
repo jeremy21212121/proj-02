@@ -285,9 +285,70 @@ span#open {
   /*font-weight: bold;*/
 }
 span#day {
-  padding-top: 3vw;
+  padding-top: 3%;
   font-size: 0.8rem;
 }
+
+@media only screen
+  and (min-device-width: 768px) {
+    .open {
+      height:12%;
+  }
+    span#day {
+    padding-top: 1%;
+  }
+  .masthead {
+    height:60vw;
+  }
+  nav li {
+    font-size: 1rem;
+  }
+  .navwrap+img {
+    max-width: 420px;
+    padding-top: 7%;
+    padding-bottom: 3%;
+  }
+  .masthead p {
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+    width: 20%;
+  }
+  button {
+    width: 19vw;
+    height:4vw;
+    font-size: 1rem;
+  }
+  article h1 {
+    padding-top:3%;
+    padding-bottom: 3%;
+    font-size:1.9rem;
+  }
+  .local {
+    margin: 1vw auto;
+  }
+  #slider {
+    padding-top: 2%;
+  }
+  .menucontainer {
+    display:flex;
+  }
+ .forks, .knives, .glasses {
+   width: 30%;
+   height:auto;
+   margin: 0 auto;
+   /*line-height: normal;*/
+ }
+ h2 {
+   margin-top: 3vw;
+   margin-bottom: 7vw;
+ }
+ .menu p {
+   margin: 1vw auto;
+ }
+
+
+
+  }
 /*input[type=date] {
   background-color: rgba(255, 255, 255, 0.5);
 }*/
